@@ -1,6 +1,9 @@
 import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
 
 node {
+    tools{
+    maven ‘Maven 3.8.6’
+    }
     try {
         properties([
         parameters([
