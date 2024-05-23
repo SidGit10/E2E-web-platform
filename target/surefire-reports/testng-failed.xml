@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Failed suite [Single]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="20" name="BStackDemo 3-3(failed)" verbose="0">
+    <parameter name="platform" value="3"/>
+    <classes>
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <methods>
+          <include name="loginFail"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </classes>
+  </test> <!-- BStackDemo 3-3(failed) -->
+  <test thread-count="20" name="BStackDemo 3-1(failed)" verbose="0">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <methods>
+          <include name="loginFail"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </classes>
+  </test> <!-- BStackDemo 3-1(failed) -->
+  <test thread-count="20" name="BStackDemo 4-1(failed)" verbose="0">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="com.browserstack.test.suites.offers.OfferTest">
+        <methods>
+          <include name="checkOffersInSingapore"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
+    </classes>
+  </test> <!-- BStackDemo 4-1(failed) -->
+  <test thread-count="20" name="BStackDemo 1-1(failed)" verbose="0">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="com.browserstack.test.suites.e2e.OrderTest">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.browserstack.test.suites.e2e.OrderTest -->
+    </classes>
+  </test> <!-- BStackDemo 1-1(failed) -->
+</suite> <!-- Failed suite [Single] -->

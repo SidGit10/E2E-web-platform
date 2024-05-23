@@ -1,0 +1,48 @@
+
+[percy] A new version of @percy/cli is available! [91m1.28.3[39m -> [32m1.28.6[39m
+
+[percy] Percy has started!
+[percy] Snapshot taken: Filter Lowest to Highest
+[percy] Encountered an error uploading snapshot: Filter Lowest to Highest
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Invalid Login
+[percy] Encountered an error uploading snapshot: Invalid Login
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Offer Page
+[percy] Encountered an error uploading snapshot: Offer Page
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Locked User
+[percy] Encountered an error uploading snapshot: Locked User
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Shipping details
+[percy] Encountered an error uploading snapshot: Shipping details
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Orders Page
+[percy] Encountered an error uploading snapshot: Orders Page
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Vendor Filter Applied
+[percy] Encountered an error uploading snapshot: Vendor Filter Applied
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Home Page
+[percy] Encountered an error uploading snapshot: Home Page
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: Login Page
+[percy] Encountered an error uploading snapshot: Login Page
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+[percy] Snapshot taken: LoggedIn Page
+[percy] Encountered an error uploading snapshot: LoggedIn Page
+[percy] Error: Cannot finalize snapshots in app builds. Did you mean to call comparison finalize?
+(node:4760) UnhandledPromiseRejectionWarning: Error: Finalizing build 34378691 failed: cannot finalize before all snapshots have comparisons created. This is likely an SDK error, please make sure that comparisons are created before calling finalize.
+    at _callee$ (/snapshot/cli/packages/client/dist/utils.js:318:33)
+    at tryCatch (/snapshot/cli/packages/client/dist/utils.js:48:2404)
+    at Generator._invoke (/snapshot/cli/packages/client/dist/utils.js:48:1964)
+    at Generator.next (/snapshot/cli/packages/client/dist/utils.js:48:3255)
+    at asyncGeneratorStep (/snapshot/cli/packages/client/dist/utils.js:57:103)
+    at _next (/snapshot/cli/packages/client/dist/utils.js:58:194)
+    at /snapshot/cli/packages/client/dist/utils.js:58:364
+    at new Promise (<anonymous>)
+    at /snapshot/cli/packages/client/dist/utils.js:58:97
+    at handleFinished (/snapshot/cli/packages/client/dist/utils.js:341:32)
+(Use `percy --trace-warnings ...` to show where the warning was created)
+(node:4760) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:4760) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.

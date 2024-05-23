@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 226.375 sec <<< FAILURE! - in TestSuite
+loginFail(com.browserstack.test.suites.login.LoginFailTest)  Time elapsed: 0.358 sec  <<< FAILURE!
+java.lang.AssertionError: expected [fav] but found [fav_user]
+	at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+
+loginFail(com.browserstack.test.suites.login.LoginFailTest)  Time elapsed: 1.266 sec  <<< FAILURE!
+java.lang.AssertionError: expected [fav] but found [fav_user]
+	at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+
+checkOffersInSingapore(com.browserstack.test.suites.offers.OfferTest)  Time elapsed: 1.882 sec  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [0]
+	at com.browserstack.test.suites.offers.OfferTest.checkOffersInSingapore(OfferTest.java:38)
+
+placeOrder(com.browserstack.test.suites.e2e.OrderTest)  Time elapsed: 0.933 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error executing browserstack_executor command. fileExists is supported only for desktop browsers
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fe05355f3e5c9a4b48ca1186a99903c09a7ef535, executeScript {script=browserstack_executor: {"action": "fileExists", "arguments": {"fileName": "confirmation.pdf"}}, args=[]}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.71...., databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-aps.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008110-000221620EDA401E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: fe05355f3e5c9a4b48ca1186a99903c09a7ef535
+	at com.browserstack.test.suites.e2e.OrderTest.downloadedFileExists(OrderTest.java:54)
+	at com.browserstack.test.suites.e2e.OrderTest.placeOrder(OrderTest.java:40)
+
+placeOrder(com.browserstack.test.suites.e2e.OrderTest)  Time elapsed: 0.943 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error executing browserstack_executor command. fileExists is supported only for desktop browsers
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8ea68f88c71c8d816aa0933be430c12726c6e7e6, executeScript {script=browserstack_executor: {"action": "fileExists", "arguments": {"fileName": "confirmation.pdf"}}, args=[]}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18087, databaseEnabled: false, desired: {browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18087, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://193.1..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8207, udid: RZCW20EHMEV}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-S918B, deviceName: RZCW20EHMEV, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: RZCW20EHMEV, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://193.1..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-aps.browserstack.com, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 13, skipServerInstallation: true, statBarHeight: 75, systemPort: 8207, takesScreenshot: true, udid: RZCW20EHMEV, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8ea68f88c71c8d816aa0933be430c12726c6e7e6
+	at com.browserstack.test.suites.e2e.OrderTest.downloadedFileExists(OrderTest.java:54)
+	at com.browserstack.test.suites.e2e.OrderTest.placeOrder(OrderTest.java:40)
+
+placeOrder(com.browserstack.test.suites.e2e.OrderTest)  Time elapsed: 38.289 sec  <<< FAILURE!
+java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance
+

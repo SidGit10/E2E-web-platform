@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Single" class="navigator-link">
+              <span class="suite-name border-failed">Single</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Single" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Single" class="navigator-link ">
+                    <span class="test-stats">24 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Single" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Single" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Single" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Single" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Single" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 4 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Single" class="hide-methods failed suite-Single"> (hide)</a> <!-- hide-methods failed suite-Single -->
+                      <a href="#" panel-name="suite-Single" class="show-methods failed suite-Single"> (show)</a> <!-- show-methods failed suite-Single -->
+                    </span>
+                    <div class="method-list-content failed suite-Single">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.offers.OfferTest" class="method navigator-link" hash-for-method="checkOffersInSingapore">checkOffersInSingapore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginFailTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginFailTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.e2e.OrderTest" class="method navigator-link" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Single -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Single" class="hide-methods passed suite-Single"> (hide)</a> <!-- hide-methods passed suite-Single -->
+                      <a href="#" panel-name="suite-Single" class="show-methods passed suite-Single"> (show)</a> <!-- show-methods passed suite-Single -->
+                    </span>
+                    <div class="method-list-content passed suite-Single">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.offers.OfferTest" class="method navigator-link" hash-for-method="checkOffersInSingapore">checkOffersInSingapore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.offers.OfferTest" class="method navigator-link" hash-for-method="checkOffersInSingapore">checkOffersInSingapore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.offers.OfferTest" class="method navigator-link" hash-for-method="checkOffersInSingapore">checkOffersInSingapore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterLowestToHighestTest">filterLowestToHighestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterLowestToHighestTest">filterLowestToHighestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterLowestToHighestTest">filterLowestToHighestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterLowestToHighestTest">filterLowestToHighestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterVendorTest">filterVendorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterVendorTest">filterVendorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterVendorTest">filterVendorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.product.FilterTest" class="method navigator-link" hash-for-method="filterVendorTest">filterVendorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.user.UserTest" class="method navigator-link" hash-for-method="loginAndCheckExistingOrders">loginAndCheckExistingOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.user.UserTest" class="method navigator-link" hash-for-method="loginAndCheckExistingOrders">loginAndCheckExistingOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.user.UserTest" class="method navigator-link" hash-for-method="loginAndCheckExistingOrders">loginAndCheckExistingOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.user.UserTest" class="method navigator-link" hash-for-method="loginAndCheckExistingOrders">loginAndCheckExistingOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginFailTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginFailTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginLockedUser">loginLockedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginLockedUser">loginLockedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginLockedUser">loginLockedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginLockedUser">loginLockedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.login.LoginTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.e2e.OrderTest" class="method navigator-link" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Single" title="com.browserstack.test.suites.e2e.OrderTest" class="method navigator-link" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Single -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Single" class="panel Single">
+          <div class="suite-Single-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.browserstack.test.suites.login.LoginFailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [fav] but found [fav_user]
+	at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [fav] but found [fav_user]
+	at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-failed -->
+          <div class="suite-Single-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.browserstack.test.suites.e2e.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrder">
+                  </a> <!-- placeOrder -->
+                  <span class="method-name">placeOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Error executing browserstack_executor command. fileExists is supported only for desktop browsers
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fe05355f3e5c9a4b48ca1186a99903c09a7ef535, executeScript {script=browserstack_executor: {&quot;action&quot;: &quot;fileExists&quot;, &quot;arguments&quot;: {&quot;fileName&quot;: &quot;confirmation.pdf&quot;}}, args=[]}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.71...., databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-aps.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008110-000221620EDA401E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: fe05355f3e5c9a4b48ca1186a99903c09a7ef535
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at com.browserstack.test.suites.e2e.OrderTest.downloadedFileExists(OrderTest.java:54)
+	at com.browserstack.test.suites.e2e.OrderTest.placeOrder(OrderTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-failed -->
+          <div class="suite-Single-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.browserstack.test.suites.offers.OfferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOffersInSingapore">
+                  </a> <!-- checkOffersInSingapore -->
+                  <span class="method-name">checkOffersInSingapore</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [3] but found [0]
+	at com.browserstack.test.suites.offers.OfferTest.checkOffersInSingapore(OfferTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-failed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLockedUser">
+                  </a> <!-- loginLockedUser -->
+                  <span class="method-name">loginLockedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLockedUser">
+                  </a> <!-- loginLockedUser -->
+                  <span class="method-name">loginLockedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLockedUser">
+                  </a> <!-- loginLockedUser -->
+                  <span class="method-name">loginLockedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLockedUser">
+                  </a> <!-- loginLockedUser -->
+                  <span class="method-name">loginLockedUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.user.UserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndCheckExistingOrders">
+                  </a> <!-- loginAndCheckExistingOrders -->
+                  <span class="method-name">loginAndCheckExistingOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndCheckExistingOrders">
+                  </a> <!-- loginAndCheckExistingOrders -->
+                  <span class="method-name">loginAndCheckExistingOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndCheckExistingOrders">
+                  </a> <!-- loginAndCheckExistingOrders -->
+                  <span class="method-name">loginAndCheckExistingOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndCheckExistingOrders">
+                  </a> <!-- loginAndCheckExistingOrders -->
+                  <span class="method-name">loginAndCheckExistingOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.product.FilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterLowestToHighestTest">
+                  </a> <!-- filterLowestToHighestTest -->
+                  <span class="method-name">filterLowestToHighestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterLowestToHighestTest">
+                  </a> <!-- filterLowestToHighestTest -->
+                  <span class="method-name">filterLowestToHighestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterLowestToHighestTest">
+                  </a> <!-- filterLowestToHighestTest -->
+                  <span class="method-name">filterLowestToHighestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterLowestToHighestTest">
+                  </a> <!-- filterLowestToHighestTest -->
+                  <span class="method-name">filterLowestToHighestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterVendorTest">
+                  </a> <!-- filterVendorTest -->
+                  <span class="method-name">filterVendorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterVendorTest">
+                  </a> <!-- filterVendorTest -->
+                  <span class="method-name">filterVendorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterVendorTest">
+                  </a> <!-- filterVendorTest -->
+                  <span class="method-name">filterVendorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterVendorTest">
+                  </a> <!-- filterVendorTest -->
+                  <span class="method-name">filterVendorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.login.LoginFailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.e2e.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrder">
+                  </a> <!-- placeOrder -->
+                  <span class="method-name">placeOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrder">
+                  </a> <!-- placeOrder -->
+                  <span class="method-name">placeOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+          <div class="suite-Single-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.test.suites.offers.OfferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOffersInSingapore">
+                  </a> <!-- checkOffersInSingapore -->
+                  <span class="method-name">checkOffersInSingapore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOffersInSingapore">
+                  </a> <!-- checkOffersInSingapore -->
+                  <span class="method-name">checkOffersInSingapore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOffersInSingapore">
+                  </a> <!-- checkOffersInSingapore -->
+                  <span class="method-name">checkOffersInSingapore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-passed -->
+        </div> <!-- panel Single -->
+        <div panel-name="test-xml-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/siddhirao/Projects2024/E2E_Platform_task/browserstack-examples-testng/src/test/resources/conf/runners/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;20&quot; parallel=&quot;tests&quot; name=&quot;Single&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 1-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.e2e.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 1-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 1-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.e2e.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 1-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 1-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.e2e.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 1-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 1-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.e2e.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 1-3 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 2-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 2-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 2-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 2-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 2-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 2-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 2-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 2-3 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 3-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginFailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 3-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 3-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginFailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 3-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 3-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginFailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 3-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 3-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.login.LoginFailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 3-3 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 4-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.offers.OfferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 4-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 4-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.offers.OfferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 4-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 4-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.offers.OfferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 4-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 4-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.offers.OfferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 4-3 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 5-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.product.FilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 5-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 5-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.product.FilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 5-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 5-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.product.FilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 5-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 5-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.product.FilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 5-3 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 6-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.user.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 6-0 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 6-1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.user.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 6-1 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 6-2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.user.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 6-2 --&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;BStackDemo 6-3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.test.suites.user.UserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BStackDemo 6-3 --&gt;
+&lt;/suite&gt; &lt;!-- Single --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BStackDemo 1-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 1-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 1-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 1-3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 2-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 2-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 2-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 2-3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 3-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 3-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 3-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 3-3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 4-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 4-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 4-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 4-3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 5-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 5-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 5-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 5-3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 6-0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 6-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 6-2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BStackDemo 6-3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Single');
+function tableData_Single() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'placeOrder')
+data.setCell(0, 2, 'com.browserstack.test.suites.e2e.OrderTest')
+data.setCell(0, 3, 37224);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'filterVendorTest')
+data.setCell(1, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(1, 3, 23218);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginSuccess')
+data.setCell(2, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(2, 3, 18937);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginAndCheckExistingOrders')
+data.setCell(3, 2, 'com.browserstack.test.suites.user.UserTest')
+data.setCell(3, 3, 17539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginLockedUser')
+data.setCell(4, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(4, 3, 14925);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'placeOrder')
+data.setCell(5, 2, 'com.browserstack.test.suites.e2e.OrderTest')
+data.setCell(5, 3, 10863);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'placeOrder')
+data.setCell(6, 2, 'com.browserstack.test.suites.e2e.OrderTest')
+data.setCell(6, 3, 10614);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginFail')
+data.setCell(7, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(7, 3, 8447);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginFail')
+data.setCell(8, 2, 'com.browserstack.test.suites.login.LoginFailTest')
+data.setCell(8, 3, 7665);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkOffersInSingapore')
+data.setCell(9, 2, 'com.browserstack.test.suites.offers.OfferTest')
+data.setCell(9, 3, 6763);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'filterVendorTest')
+data.setCell(10, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(10, 3, 6165);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'filterLowestToHighestTest')
+data.setCell(11, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(11, 3, 5739);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'filterLowestToHighestTest')
+data.setCell(12, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(12, 3, 4539);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginAndCheckExistingOrders')
+data.setCell(13, 2, 'com.browserstack.test.suites.user.UserTest')
+data.setCell(13, 3, 4269);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginSuccess')
+data.setCell(14, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(14, 3, 3656);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'filterLowestToHighestTest')
+data.setCell(15, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(15, 3, 3277);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkOffersInSingapore')
+data.setCell(16, 2, 'com.browserstack.test.suites.offers.OfferTest')
+data.setCell(16, 3, 3194);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'filterVendorTest')
+data.setCell(17, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(17, 3, 3137);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'filterVendorTest')
+data.setCell(18, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(18, 3, 2830);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginFail')
+data.setCell(19, 2, 'com.browserstack.test.suites.login.LoginFailTest')
+data.setCell(19, 3, 2799);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginAndCheckExistingOrders')
+data.setCell(20, 2, 'com.browserstack.test.suites.user.UserTest')
+data.setCell(20, 3, 2782);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginFail')
+data.setCell(21, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(21, 3, 2716);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkOffersInSingapore')
+data.setCell(22, 2, 'com.browserstack.test.suites.offers.OfferTest')
+data.setCell(22, 3, 2698);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginLockedUser')
+data.setCell(23, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(23, 3, 2480);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginAndCheckExistingOrders')
+data.setCell(24, 2, 'com.browserstack.test.suites.user.UserTest')
+data.setCell(24, 3, 2425);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'filterLowestToHighestTest')
+data.setCell(25, 2, 'com.browserstack.test.suites.product.FilterTest')
+data.setCell(25, 3, 2255);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginSuccess')
+data.setCell(26, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(26, 3, 2200);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginLockedUser')
+data.setCell(27, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(27, 3, 2173);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginFail')
+data.setCell(28, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(28, 3, 2172);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'loginLockedUser')
+data.setCell(29, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(29, 3, 2076);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'loginFail')
+data.setCell(30, 2, 'com.browserstack.test.suites.login.LoginFailTest')
+data.setCell(30, 3, 2061);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'loginFail')
+data.setCell(31, 2, 'com.browserstack.test.suites.login.LoginFailTest')
+data.setCell(31, 3, 1992);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkOffersInSingapore')
+data.setCell(32, 2, 'com.browserstack.test.suites.offers.OfferTest')
+data.setCell(32, 3, 1811);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'loginSuccess')
+data.setCell(33, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(33, 3, 1666);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'loginFail')
+data.setCell(34, 2, 'com.browserstack.test.suites.login.LoginTest')
+data.setCell(34, 3, 1463);
+window.suiteTableData['Single']= { tableData: data, tableDiv: 'times-div-Single'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Single">
+              </div> <!-- times-div-Single -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOffersInSingapore</span>
+                <span class="method-start">7413 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">7476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">placeOrder</span>
+                <span class="method-start">7615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterLowestToHighestTest</span>
+                <span class="method-start">7846 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">8015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">8173 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">placeOrder</span>
+                <span class="method-start">8642 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">9466 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterLowestToHighestTest</span>
+                <span class="method-start">10217 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10846 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11170 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11520 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13137 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">15095 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterLowestToHighestTest</span>
+                <span class="method-start">15397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginFail</span>
+                <span class="method-start">16192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOffersInSingapore</span>
+                <span class="method-start">16844 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18388 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOffersInSingapore</span>
+                <span class="method-start">18561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginLockedUser</span>
+                <span class="method-start">18726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAndCheckExistingOrders</span>
+                <span class="method-start">19787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterLowestToHighestTest</span>
+                <span class="method-start">19793 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19893 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19991 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">20012 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20491 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20625 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20625 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21012 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginFail</span>
+                <span class="method-start">21143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrder</span>
+                <span class="method-start">21261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21355 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21526 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21530 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOffersInSingapore</span>
+                <span class="method-start">22009 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22238 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22382 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23092 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24654 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginFailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26081 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterVendorTest</span>
+                <span class="method-start">26191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginLockedUser</span>
+                <span class="method-start">26201 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAndCheckExistingOrders</span>
+                <span class="method-start">27007 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27015 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27475 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterVendorTest</span>
+                <span class="method-start">27666 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.offers.OfferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28468 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29044 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAndCheckExistingOrders</span>
+                <span class="method-start">31004 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32121 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33909 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginLockedUser</span>
+                <span class="method-start">34086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34515 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filterVendorTest</span>
+                <span class="method-start">34850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAndCheckExistingOrders</span>
+                <span class="method-start">35086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35712 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">36124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38788 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39684 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39735 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.user.UserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39870 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginLockedUser</span>
+                <span class="method-start">41156 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">filterVendorTest</span>
+                <span class="method-start">41337 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44280 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44548 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45377 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.e2e.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47428 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.product.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51412 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.test.suites.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">51533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">52284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">65422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75503 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="31" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-23T17:00:35 IST" name="Single" finished-at="2024-05-23T17:01:52 IST" duration-ms="77245">
+    <groups>
+    </groups>
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 3-2" finished-at="2024-05-23T17:00:48 IST" duration-ms="12937">
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@4e73b552]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:43 IST" duration-ms="8007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@4e73b552]" started-at="2024-05-23T17:00:43 IST" name="loginFail" finished-at="2024-05-23T17:00:45 IST" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@4e73b552]" started-at="2024-05-23T17:00:46 IST" name="tearDown" finished-at="2024-05-23T17:00:48 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </test> <!-- BStackDemo 3-2 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 4-2" finished-at="2024-05-23T17:00:48 IST" duration-ms="13330">
+      <class name="com.browserstack.test.suites.offers.OfferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@4016ccc1]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:42 IST" duration-ms="7313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkOffersInSingapore()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@4016ccc1]" started-at="2024-05-23T17:00:42 IST" name="checkOffersInSingapore" finished-at="2024-05-23T17:00:45 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOffersInSingapore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@4016ccc1]" started-at="2024-05-23T17:00:47 IST" name="tearDown" finished-at="2024-05-23T17:00:48 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
+    </test> <!-- BStackDemo 4-2 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 3-0" finished-at="2024-05-23T17:00:56 IST" duration-ms="21214">
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@53a5e217]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:44 IST" duration-ms="9434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@53a5e217]" started-at="2024-05-23T17:00:44 IST" name="loginFail" finished-at="2024-05-23T17:00:52 IST" duration-ms="7665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@53a5e217]" started-at="2024-05-23T17:00:54 IST" name="tearDown" finished-at="2024-05-23T17:00:56 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </test> <!-- BStackDemo 3-0 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 4-3" finished-at="2024-05-23T17:00:57 IST" duration-ms="21732">
+      <class name="com.browserstack.test.suites.offers.OfferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@213bd3d5]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:52 IST" duration-ms="16838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkOffersInSingapore()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@213bd3d5]" started-at="2024-05-23T17:00:52 IST" name="checkOffersInSingapore" finished-at="2024-05-23T17:00:55 IST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOffersInSingapore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@213bd3d5]" started-at="2024-05-23T17:00:55 IST" name="tearDown" finished-at="2024-05-23T17:00:57 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
+    </test> <!-- BStackDemo 4-3 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 1-2" finished-at="2024-05-23T17:00:57 IST" duration-ms="22644">
+      <class name="com.browserstack.test.suites.e2e.OrderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@39c1fe0b]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:43 IST" duration-ms="7592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@39c1fe0b]" started-at="2024-05-23T17:00:43 IST" name="placeOrder" finished-at="2024-05-23T17:00:54 IST" duration-ms="10863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@39c1fe0b]" started-at="2024-05-23T17:00:56 IST" name="tearDown" finished-at="2024-05-23T17:00:57 IST" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.e2e.OrderTest -->
+    </test> <!-- BStackDemo 1-2 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 3-3" finished-at="2024-05-23T17:01:00 IST" duration-ms="24799">
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@6b2e0f78]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:51 IST" duration-ms="16169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@6b2e0f78]" started-at="2024-05-23T17:00:51 IST" name="loginFail" finished-at="2024-05-23T17:00:54 IST" duration-ms="2799" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [fav] but found [fav_user]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [fav] but found [fav_user]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@6b2e0f78]" started-at="2024-05-23T17:00:57 IST" name="tearDown" finished-at="2024-05-23T17:00:59 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </test> <!-- BStackDemo 3-3 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 3-1" finished-at="2024-05-23T17:01:03 IST" duration-ms="27895">
+      <class name="com.browserstack.test.suites.login.LoginFailTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@7c9bdee9]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:56 IST" duration-ms="21123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@7c9bdee9]" started-at="2024-05-23T17:00:56 IST" name="loginFail" finished-at="2024-05-23T17:00:58 IST" duration-ms="2061" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [fav] but found [fav_user]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [fav] but found [fav_user]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.browserstack.test.suites.login.LoginFailTest.loginFail(LoginFailTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginFailTest@7c9bdee9]" started-at="2024-05-23T17:01:01 IST" name="tearDown" finished-at="2024-05-23T17:01:03 IST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginFailTest -->
+    </test> <!-- BStackDemo 3-1 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 4-0" finished-at="2024-05-23T17:01:05 IST" duration-ms="29701">
+      <class name="com.browserstack.test.suites.offers.OfferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@1c758545]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:54 IST" duration-ms="18545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkOffersInSingapore()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@1c758545]" started-at="2024-05-23T17:00:54 IST" name="checkOffersInSingapore" finished-at="2024-05-23T17:01:00 IST" duration-ms="6763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOffersInSingapore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@1c758545]" started-at="2024-05-23T17:01:02 IST" name="tearDown" finished-at="2024-05-23T17:01:05 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
+    </test> <!-- BStackDemo 4-0 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 4-1" finished-at="2024-05-23T17:01:05 IST" duration-ms="30158">
+      <class name="com.browserstack.test.suites.offers.OfferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@21d1b321]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:57 IST" duration-ms="21987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkOffersInSingapore()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@21d1b321]" started-at="2024-05-23T17:00:57 IST" name="checkOffersInSingapore" finished-at="2024-05-23T17:00:59 IST" duration-ms="1811" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [0]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.browserstack.test.suites.offers.OfferTest.checkOffersInSingapore(OfferTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOffersInSingapore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.offers.OfferTest@21d1b321]" started-at="2024-05-23T17:01:04 IST" name="tearDown" finished-at="2024-05-23T17:01:05 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.offers.OfferTest -->
+    </test> <!-- BStackDemo 4-1 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 5-2" finished-at="2024-05-23T17:01:09 IST" duration-ms="34103">
+      <class name="com.browserstack.test.suites.product.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:43 IST" duration-ms="7829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterLowestToHighestTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:00:43 IST" name="filterLowestToHighestTest" finished-at="2024-05-23T17:00:45 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLowestToHighestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:00:56 IST" name="tearDown" finished-at="2024-05-23T17:00:57 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:00:57 IST" name="setUp" finished-at="2024-05-23T17:01:03 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterVendorTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:01:03 IST" name="filterVendorTest" finished-at="2024-05-23T17:01:06 IST" duration-ms="2830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterVendorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@74db12c2]" started-at="2024-05-23T17:01:07 IST" name="tearDown" finished-at="2024-05-23T17:01:09 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.product.FilterTest -->
+    </test> <!-- BStackDemo 5-2 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 1-1" finished-at="2024-05-23T17:01:11 IST" duration-ms="35867">
+      <class name="com.browserstack.test.suites.e2e.OrderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4fad6218]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:56 IST" duration-ms="21254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4fad6218]" started-at="2024-05-23T17:00:56 IST" name="placeOrder" finished-at="2024-05-23T17:01:07 IST" duration-ms="10614" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Error executing browserstack_executor command. fileExists is supported only for desktop browsers
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fe05355f3e5c9a4b48ca1186a99903c09a7ef535, executeScript {script=browserstack_executor: {"action": "fileExists", "arguments": {"fileName": "confirmation.pdf"}}, args=[]}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.71...., databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-aps.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008110-000221620EDA401E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: fe05355f3e5c9a4b48ca1186a99903c09a7ef535]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Error executing browserstack_executor command. fileExists is supported only for desktop browsers
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fe05355f3e5c9a4b48ca1186a99903c09a7ef535, executeScript {script=browserstack_executor: {"action": "fileExists", "arguments": {"fileName": "confirmation.pdf"}}, args=[]}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.71...., databaseEnabled: false, deviceName: iPhone 13, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-aps.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008110-000221620EDA401E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: fe05355f3e5c9a4b48ca1186a99903c09a7ef535
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+at com.browserstack.test.suites.e2e.OrderTest.downloadedFileExists(OrderTest.java:54)
+at com.browserstack.test.suites.e2e.OrderTest.placeOrder(OrderTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@4fad6218]" started-at="2024-05-23T17:01:10 IST" name="tearDown" finished-at="2024-05-23T17:01:11 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.e2e.OrderTest -->
+    </test> <!-- BStackDemo 1-1 -->
+    <test started-at="2024-05-23T17:00:48 IST" name="BStackDemo 6-1" finished-at="2024-05-23T17:01:11 IST" duration-ms="22902">
+      <class name="com.browserstack.test.suites.user.UserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.user.UserTest@d48673]" started-at="2024-05-23T17:00:48 IST" name="setUp" finished-at="2024-05-23T17:01:06 IST" duration-ms="17860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAndCheckExistingOrders()[pri:0, instance:com.browserstack.test.suites.user.UserTest@d48673]" started-at="2024-05-23T17:01:06 IST" name="loginAndCheckExistingOrders" finished-at="2024-05-23T17:01:09 IST" duration-ms="2782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckExistingOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.user.UserTest@d48673]" started-at="2024-05-23T17:01:09 IST" name="tearDown" finished-at="2024-05-23T17:01:11 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.user.UserTest -->
+    </test> <!-- BStackDemo 6-1 -->
+    <test started-at="2024-05-23T17:00:56 IST" name="BStackDemo 6-2" finished-at="2024-05-23T17:01:12 IST" duration-ms="16308">
+      <class name="com.browserstack.test.suites.user.UserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.user.UserTest@42d73c61]" started-at="2024-05-23T17:00:56 IST" name="setUp" finished-at="2024-05-23T17:01:02 IST" duration-ms="5987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAndCheckExistingOrders()[pri:0, instance:com.browserstack.test.suites.user.UserTest@42d73c61]" started-at="2024-05-23T17:01:02 IST" name="loginAndCheckExistingOrders" finished-at="2024-05-23T17:01:04 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckExistingOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.user.UserTest@42d73c61]" started-at="2024-05-23T17:01:11 IST" name="tearDown" finished-at="2024-05-23T17:01:12 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.user.UserTest -->
+    </test> <!-- BStackDemo 6-2 -->
+    <test started-at="2024-05-23T17:00:57 IST" name="BStackDemo 6-3" finished-at="2024-05-23T17:01:16 IST" duration-ms="19859">
+      <class name="com.browserstack.test.suites.user.UserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.user.UserTest@25e49cb2]" started-at="2024-05-23T17:00:57 IST" name="setUp" finished-at="2024-05-23T17:01:10 IST" duration-ms="13552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAndCheckExistingOrders()[pri:0, instance:com.browserstack.test.suites.user.UserTest@25e49cb2]" started-at="2024-05-23T17:01:10 IST" name="loginAndCheckExistingOrders" finished-at="2024-05-23T17:01:14 IST" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckExistingOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.user.UserTest@25e49cb2]" started-at="2024-05-23T17:01:15 IST" name="tearDown" finished-at="2024-05-23T17:01:16 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.user.UserTest -->
+    </test> <!-- BStackDemo 6-3 -->
+    <test started-at="2024-05-23T17:00:48 IST" name="BStackDemo 6-0" finished-at="2024-05-23T17:01:16 IST" duration-ms="28659">
+      <class name="com.browserstack.test.suites.user.UserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.user.UserTest@2cc04358]" started-at="2024-05-23T17:00:48 IST" name="setUp" finished-at="2024-05-23T17:00:55 IST" duration-ms="6848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAndCheckExistingOrders()[pri:0, instance:com.browserstack.test.suites.user.UserTest@2cc04358]" started-at="2024-05-23T17:00:55 IST" name="loginAndCheckExistingOrders" finished-at="2024-05-23T17:01:12 IST" duration-ms="17539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndCheckExistingOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.user.UserTest@2cc04358]" started-at="2024-05-23T17:01:15 IST" name="tearDown" finished-at="2024-05-23T17:01:16 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.user.UserTest -->
+    </test> <!-- BStackDemo 6-0 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 2-2" finished-at="2024-05-23T17:01:16 IST" duration-ms="41668">
+      <class name="com.browserstack.test.suites.login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:43 IST" duration-ms="7469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:00:43 IST" name="loginFail" finished-at="2024-05-23T17:00:45 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:00:46 IST" name="tearDown" finished-at="2024-05-23T17:00:49 IST" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:00:49 IST" name="setUp" finished-at="2024-05-23T17:00:54 IST" duration-ms="5195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginLockedUser()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:00:54 IST" name="loginLockedUser" finished-at="2024-05-23T17:00:56 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:01:03 IST" name="tearDown" finished-at="2024-05-23T17:01:04 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:01:04 IST" name="setUp" finished-at="2024-05-23T17:01:11 IST" duration-ms="7071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSuccess()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:01:11 IST" name="loginSuccess" finished-at="2024-05-23T17:01:13 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@6f4ade6e]" started-at="2024-05-23T17:01:15 IST" name="tearDown" finished-at="2024-05-23T17:01:16 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginTest -->
+    </test> <!-- BStackDemo 2-2 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 5-3" finished-at="2024-05-23T17:01:18 IST" duration-ms="43219">
+      <class name="com.browserstack.test.suites.product.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:50 IST" duration-ms="15363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterLowestToHighestTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:00:50 IST" name="filterLowestToHighestTest" finished-at="2024-05-23T17:00:55 IST" duration-ms="4539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLowestToHighestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:00:55 IST" name="tearDown" finished-at="2024-05-23T17:00:56 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:00:56 IST" name="setUp" finished-at="2024-05-23T17:01:10 IST" duration-ms="13476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterVendorTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:01:10 IST" name="filterVendorTest" finished-at="2024-05-23T17:01:16 IST" duration-ms="6165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterVendorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@2e3f79a2]" started-at="2024-05-23T17:01:16 IST" name="tearDown" finished-at="2024-05-23T17:01:18 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.product.FilterTest -->
+    </test> <!-- BStackDemo 5-3 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 5-1" finished-at="2024-05-23T17:01:21 IST" duration-ms="46260">
+      <class name="com.browserstack.test.suites.product.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:55 IST" duration-ms="19614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterLowestToHighestTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:00:55 IST" name="filterLowestToHighestTest" finished-at="2024-05-23T17:00:58 IST" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLowestToHighestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:00:58 IST" name="tearDown" finished-at="2024-05-23T17:01:00 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:01:00 IST" name="setUp" finished-at="2024-05-23T17:01:16 IST" duration-ms="16679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterVendorTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:01:16 IST" name="filterVendorTest" finished-at="2024-05-23T17:01:20 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterVendorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@3e84111a]" started-at="2024-05-23T17:01:20 IST" name="tearDown" finished-at="2024-05-23T17:01:21 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.product.FilterTest -->
+    </test> <!-- BStackDemo 5-1 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 1-0" finished-at="2024-05-23T17:01:24 IST" duration-ms="49215">
+      <class name="com.browserstack.test.suites.e2e.OrderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@5f780a86]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:44 IST" duration-ms="8632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@5f780a86]" started-at="2024-05-23T17:00:44 IST" name="placeOrder" finished-at="2024-05-23T17:01:21 IST" duration-ms="37224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.e2e.OrderTest@5f780a86]" started-at="2024-05-23T17:01:22 IST" name="tearDown" finished-at="2024-05-23T17:01:24 IST" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.e2e.OrderTest -->
+    </test> <!-- BStackDemo 1-0 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 5-0" finished-at="2024-05-23T17:01:28 IST" duration-ms="53203">
+      <class name="com.browserstack.test.suites.product.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:45 IST" duration-ms="10211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterLowestToHighestTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:00:45 IST" name="filterLowestToHighestTest" finished-at="2024-05-23T17:00:51 IST" duration-ms="5739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLowestToHighestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:00:53 IST" name="tearDown" finished-at="2024-05-23T17:00:55 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:00:55 IST" name="setUp" finished-at="2024-05-23T17:01:01 IST" duration-ms="6278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterVendorTest()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:01:01 IST" name="filterVendorTest" finished-at="2024-05-23T17:01:24 IST" duration-ms="23218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterVendorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.product.FilterTest@7afb1741]" started-at="2024-05-23T17:01:26 IST" name="tearDown" finished-at="2024-05-23T17:01:28 IST" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.product.FilterTest -->
+    </test> <!-- BStackDemo 5-0 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 2-3" finished-at="2024-05-23T17:01:32 IST" duration-ms="57240">
+      <class name="com.browserstack.test.suites.login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:50 IST" duration-ms="15066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:00:50 IST" name="loginFail" finished-at="2024-05-23T17:00:53 IST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:00:53 IST" name="tearDown" finished-at="2024-05-23T17:00:56 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:00:56 IST" name="setUp" finished-at="2024-05-23T17:01:09 IST" duration-ms="13587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginLockedUser()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:01:09 IST" name="loginLockedUser" finished-at="2024-05-23T17:01:12 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:01:12 IST" name="tearDown" finished-at="2024-05-23T17:01:14 IST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:01:14 IST" name="setUp" finished-at="2024-05-23T17:01:27 IST" duration-ms="12741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSuccess()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:01:27 IST" name="loginSuccess" finished-at="2024-05-23T17:01:30 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@186cb891]" started-at="2024-05-23T17:01:31 IST" name="tearDown" finished-at="2024-05-23T17:01:32 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginTest -->
+    </test> <!-- BStackDemo 2-3 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 2-1" finished-at="2024-05-23T17:01:44 IST" duration-ms="69430">
+      <class name="com.browserstack.test.suites.login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:55 IST" duration-ms="19995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:00:55 IST" name="loginFail" finished-at="2024-05-23T17:00:57 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:00:57 IST" name="tearDown" finished-at="2024-05-23T17:00:58 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:00:58 IST" name="setUp" finished-at="2024-05-23T17:01:16 IST" duration-ms="18059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginLockedUser()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:01:16 IST" name="loginLockedUser" finished-at="2024-05-23T17:01:18 IST" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:01:18 IST" name="tearDown" finished-at="2024-05-23T17:01:20 IST" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:01:20 IST" name="setUp" finished-at="2024-05-23T17:01:40 IST" duration-ms="20025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSuccess()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:01:40 IST" name="loginSuccess" finished-at="2024-05-23T17:01:43 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@3effd4f3]" started-at="2024-05-23T17:01:43 IST" name="tearDown" finished-at="2024-05-23T17:01:44 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginTest -->
+    </test> <!-- BStackDemo 2-1 -->
+    <test started-at="2024-05-23T17:00:35 IST" name="BStackDemo 2-0" finished-at="2024-05-23T17:01:52 IST" duration-ms="77245">
+      <class name="com.browserstack.test.suites.login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:00:35 IST" name="setUp" finished-at="2024-05-23T17:00:43 IST" duration-ms="8150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFail()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:00:43 IST" name="loginFail" finished-at="2024-05-23T17:00:52 IST" duration-ms="8447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:00:53 IST" name="tearDown" finished-at="2024-05-23T17:00:55 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:00:55 IST" name="setUp" finished-at="2024-05-23T17:01:01 IST" duration-ms="6303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginLockedUser()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:01:01 IST" name="loginLockedUser" finished-at="2024-05-23T17:01:16 IST" duration-ms="14925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:01:18 IST" name="tearDown" finished-at="2024-05-23T17:01:19 IST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:01:19 IST" name="setUp" finished-at="2024-05-23T17:01:27 IST" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSuccess()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:01:27 IST" name="loginSuccess" finished-at="2024-05-23T17:01:46 IST" duration-ms="18937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.test.suites.login.LoginTest@9d7ccfe]" started-at="2024-05-23T17:01:51 IST" name="tearDown" finished-at="2024-05-23T17:01:52 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.test.suites.login.LoginTest -->
+    </test> <!-- BStackDemo 2-0 -->
+  </suite> <!-- Single -->
+</testng-results>
