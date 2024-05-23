@@ -5,7 +5,16 @@ pipeline {
         BROWSERSTACK_USERNAME = credentials('browserstack_credentials').username
         BROWSERSTACK_ACCESS_KEY = credentials('browserstack_credentials').password
     }
-
+ stages {
+        stage('Prepare') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'browserstack_credentials', usernameVariable: 'BROWSERSTACK_USERNAME', passwordVariable: 'BROWSERSTACK_ACCESS_KEY')]) {
+                        echo "Using BrowserStack username ${BROWSERSTACK_USERNAME}"
+                    }
+                }
+            }
+        }
     stages {
         stage('Build') {
             steps {
