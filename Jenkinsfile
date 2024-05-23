@@ -36,7 +36,7 @@ node {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
                 ln src/test/resources/conf/capabilities/browserstack.yml
-               
+                export M2_HOME="/Users/siddhirao/Downloads/apache-maven-3.8.6"
                 mvn clean test -P bstack-parallel-browsers '''
                 
                 
