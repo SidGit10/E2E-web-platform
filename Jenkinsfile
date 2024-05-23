@@ -1,9 +1,7 @@
 import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
 
 node {
-    tools{
-    maven ‘Maven 3.8.6’
-    }
+
     try {
         properties([
         parameters([
@@ -35,6 +33,7 @@ node {
                 if (user.contains('-')) {
                     user = user.substring(0, user.lastIndexOf('-'))
                 }
+                def mvnHome = tool name: 'maven-3.8.6', type: 'maven'
                 withEnv(['BROWSERSTACK_USERNAME=' + user]) {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
