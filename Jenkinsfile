@@ -36,7 +36,7 @@ node {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
                 ln src/test/resources/conf/capabilities/browserstack.yml
-                mvn clean test -P bstack-parallel-browsers
+                mvn clean test -P bstack-parallel-browsers '''
                 }
             }
         }
