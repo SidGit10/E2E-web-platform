@@ -1,28 +1,29 @@
 import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
 
 node {
-  environment {
+    environment {
         MAVEN_HOME = tool 'Default'  // Ensure this matches the name configured in Global Tool Configuration
     }
 
     try {
         properties([
-        parameters([
-            credentials(credentialType: 'com.browserstack.automate.ci.jenkins.BrowserStackCredentials', defaultValue: '', description: 'Select your BrowserStack Username', name: 'BROWSERSTACK_USERNAME', required: true),
-            choice(
-                choices: [
-                    'bstack-single',
-                    'bstack-parallel',
-                    'bstack-parallel-browsers',
-                    'bstack-local',
-                    'bstack-local-parallel',
-                    'bstack-local-parallel-browsers'
-                ],
-                description: 'Select the test you would like to run',
-                name: 'TEST_TYPE'
-            )
+            parameters([
+                string(defaultValue: '', description: 'Enter your BrowserStack Username', name: 'BROWSERSTACK_USERNAME', trim: true),
+                string(defaultValue: '', description: 'Enter your BrowserStack Access Key', name: 'BROWSERSTACK_ACCESS_KEY', trim: true),
+                choice(
+                    choices: [
+                        'bstack-single',
+                        'bstack-parallel',
+                        'bstack-parallel-browsers',
+                        'bstack-local',
+                        'bstack-local-parallel',
+                        'bstack-local-parallel-browsers'
+                    ],
+                    description: 'Select the test you would like to run',
+                    name: 'TEST_TYPE'
+                )
+            ])
         ])
-    ])
 
         stage('Pull code from Github') {
             dir('test') {
@@ -31,20 +32,18 @@ node {
         }
 
         stage('Run Test') {
-            browserstack(credentialsId: "${params.BROWSERSTACK_USERNAME}") {
-                def user = "${env.BROWSERSTACK_USERNAME}"
+            withCredentials([string(credentialsId: 'browserstack_credentials_id', variable: 'BROWSERSTACK_ACCESS_KEY')]) {
+                def user = "${params.BROWSERSTACK_USERNAME}"
                 if (user.contains('-')) {
                     user = user.substring(0, user.lastIndexOf('-'))
                 }
-               
-                withEnv(['BROWSERSTACK_USERNAME=' + user]) {
-                    sh label: '', returnStatus: true, script:'''#!/bin/bash -l
-                cd test
-                ln src/test/resources/conf/capabilities/browserstack.yml
-                withEnv(["PATH+MAVEN=${MAVEN_HOME}/bin"])
-                mvn clean test -P bstack-parallel-browsers '''
-                
-                
+
+                withEnv(['BROWSERSTACK_USERNAME=' + user, 'BROWSERSTACK_ACCESS_KEY=' + "${BROWSERSTACK_ACCESS_KEY}", "PATH+MAVEN=${MAVEN_HOME}/bin"]) {
+                    sh '''
+                        cd test
+                        ln -sf src/test/resources/conf/capabilities/browserstack.yml
+                        mvn clean test -P bstack-parallel-browsers
+                    '''
                 }
             }
         }
@@ -52,14 +51,15 @@ node {
         stage('Generate Report') {
             browserStackReportPublisher 'automate'
         }
-  }catch (e) {
+    } catch (e) {
         currentBuild.result = 'FAILURE'
-        echo e
+        echo e.toString()
         throw e
-  } finally {
-       // notifySlack(currentBuild.result)
+    } finally {
+        // notifySlack(currentBuild.result)
     }
 }
+
 // def notifySlack(String buildStatus = 'STARTED') {
 //     // Build status of null means success.
 //     buildStatus = buildStatus ?: 'SUCCESS'
@@ -70,9 +70,9 @@ node {
 //         color = '#D4DADF'
 //     } else if (buildStatus == 'SUCCESS') {
 //         color = '#BDFFC3'
-//    } else if (buildStatus == 'UNSTABLE') {
+//     } else if (buildStatus == 'UNSTABLE') {
 //         color = '#FFFE89'
-//    } else {
+//     } else {
 //         color = '#FF9FA1'
 //     }
 
