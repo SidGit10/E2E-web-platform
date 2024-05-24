@@ -36,7 +36,7 @@ node {
                 if (user.contains('-')) {
                     user = user.substring(0, user.lastIndexOf('-'))
                 }
-                def mvnHome = tool name: 'M2_HOME', type: 'maven'
+               
                 withEnv(['BROWSERSTACK_USERNAME=' + user]) {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
