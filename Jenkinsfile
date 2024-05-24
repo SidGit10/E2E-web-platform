@@ -1,6 +1,9 @@
 import org.jenkinsci.plugins.pipeline.modeldefinition.Utils
 
 node {
+  environment {
+        MAVEN_HOME = tool 'Default'  // Ensure this matches the name configured in Global Tool Configuration
+    }
 
     try {
         properties([
@@ -38,9 +41,8 @@ node {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
                 ln src/test/resources/conf/capabilities/browserstack.yml
-                export M2_HOME="/Users/siddhirao/Downloads/apache-maven-3.8.6"
-                echo $M2_HOME
-                ${M2_HOME}/bin/mvn clean test -P bstack-parallel-browsers '''
+                withEnv(["PATH+MAVEN=${MAVEN_HOME}/bin"])
+                mvn clean test -P bstack-parallel-browsers '''
                 
                 
                 }
