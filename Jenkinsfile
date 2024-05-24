@@ -8,8 +8,7 @@ node {
     try {
         properties([
             parameters([
-                string(defaultValue: '', description: 'Enter your BrowserStack Username', name: 'BROWSERSTACK_USERNAME', trim: true),
-                string(defaultValue: '', description: 'Enter your BrowserStack Access Key', name: 'BROWSERSTACK_ACCESS_KEY', trim: true),
+                credentials(credentialType: 'com.browserstack.automate.ci.jenkins.BrowserStackCredentials', defaultValue: '41bfad33-e60a-41c8-b217-17811248a578', description: 'Select your BrowserStack Credentials', name: 'BROWSERSTACK_CREDENTIALS_ID', required: true),
                 choice(
                     choices: [
                         'bstack-single',
@@ -32,7 +31,7 @@ node {
         }
 
         stage('Run Test') {
-            withCredentials([string(credentialsId: '41bfad33-e60a-41c8-b217-17811248a578', variable: 'BROWSERSTACK_ACCESS_KEY')]) {
+            withCredentials([string(credentialsId: params.BROWSERSTACK_CREDENTIALS_ID, variable: 'BROWSERSTACK_ACCESS_KEY')]) {
                 def user = "${params.BROWSERSTACK_USERNAME}"
                 if (user.contains('-')) {
                     user = user.substring(0, user.lastIndexOf('-'))
