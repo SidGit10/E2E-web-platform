@@ -32,7 +32,7 @@ node {
         }
 
         stage('Run Test') {
-            withCredentials([string(credentialsId: 'browserstack_credentials_id', variable: 'BROWSERSTACK_ACCESS_KEY')]) {
+            withCredentials([string(credentialsId: '41bfad33-e60a-41c8-b217-17811248a578', variable: 'BROWSERSTACK_ACCESS_KEY')]) {
                 def user = "${params.BROWSERSTACK_USERNAME}"
                 if (user.contains('-')) {
                     user = user.substring(0, user.lastIndexOf('-'))
