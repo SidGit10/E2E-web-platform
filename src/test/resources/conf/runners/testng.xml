@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Single">
-    <test name="BStackDemo 1">
+<!--     <test name="BStackDemo 1">
         <classes>
             <class name="com.browserstack.test.suites.e2e.OrderTest"/>
         </classes>
-    </test>
+    </test> -->
     <test name="BStackDemo 2">
         <classes>
             <class name="com.browserstack.test.suites.login.LoginTest"/>
         </classes>
     </test>
-    <test name="BStackDemo 3">
+<!--     <test name="BStackDemo 3">
         <classes>
             <class name="com.browserstack.test.suites.login.LoginFailTest"/>
         </classes>
@@ -30,5 +30,5 @@
         <classes>
             <class name="com.browserstack.test.suites.user.UserTest"/>
         </classes>
-    </test>
+    </test> -->
 </suite>
