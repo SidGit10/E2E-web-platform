@@ -35,7 +35,7 @@ node {
                 withEnv(['BROWSERSTACK_USERNAME=' + user]) {
                     sh label: '', returnStatus: true, script:'''#!/bin/bash -l
                 cd test
-                ln src/test/resources/conf/capabilities/${TEST_TYPE}.yml browserstack.yml
+                ln src/test/resources/conf/capabilities/browserstack.yml browserstack.yml
                 mvn clean test -P ${TEST_TYPE} '''
                 }
             }
