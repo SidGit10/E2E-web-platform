@@ -92,8 +92,8 @@ consoleLogs: errors # <string> Remote browser's console debug levels to be print
 testObservability: BROWSERSTACK_TEST_OBSERVABILITY
 
 # visual testings
-percy: BROWSERSTACK_PERCY
-percyCaptureMode: manual
+#percy: BROWSERSTACK_PERCY
+#percyCaptureMode: manual
 
 #performnace
 #performance: report
