@@ -39,7 +39,7 @@ platforms:
     osVersion: 11
     browserName: Chrome
     browserVersion: latest
-    accessibility: BROWSERSTACK_ACCESSIBILITY
+    accessibility: true
   - deviceName: iPhone 13
     osVersion: 15
     browserName: Chromium
@@ -48,7 +48,7 @@ platforms:
     osVersion: Sonoma
     browserName: Chrome
     browserVersion: latest
-    accessibility: BROWSERSTACK_ACCESSIBILITY
+    accessibility: true
   - deviceName: Samsung Galaxy S23 Ultra
     osVersion: 13.0
     browserName: chrome
@@ -92,8 +92,8 @@ consoleLogs: errors # <string> Remote browser's console debug levels to be print
 testObservability: BROWSERSTACK_TEST_OBSERVABILITY
 
 # visual testings
-#percy: BROWSERSTACK_PERCY
-#percyCaptureMode: manual
+percy: true
+percyCaptureMode: manual
 
 #performnace
 #performance: report
