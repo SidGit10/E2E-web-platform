@@ -1,51 +1,104 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+body.custom-report {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #2c3e50;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.header {
+.custom-report .header {
+    background-color: #1976d2;
+    padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header img {
+.custom-report .header h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.custom-report .header img {
+    max-width: 180px;
     max-height: 50px;
 }
 
-.section-title {
-    margin-top: 40px;
+.custom-report .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.custom-report .section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.custom-report .section-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.custom-report .link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
     margin-bottom: 10px;
-    font-size: 1.5em;
-    color: #34495e;
+}
+
+.custom-report .link:hover {
+    background-color: #f5f5f5;
+}
+
+.custom-report .icon {
+    font-size: 36px;
+    margin-right: 15px;
+    color: #1976d2;
+}
+
+.custom-report .link-text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.custom-report .link-text p {
+    font-size: 16px;
+    margin: 4px 0 0;
+}
+
+.custom-report .summary-table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.custom-report .summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.custom-report .summary-table th, .custom-report .summary-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-report .summary-table th {
+    background-color: #f5f5f5;
+    font-weight: 500;
 }
