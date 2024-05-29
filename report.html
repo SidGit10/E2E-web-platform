@@ -8,80 +8,82 @@
     <link rel="stylesheet" href="styles.css">
     <title>Report Dashboard</title>
 </head>
-<body class="custom-report">
-    <div class="header">
-        <h1>Web Automation Report Dashboard</h1>
-        <img src="https://browserstack.wpenginepowered.com/wp-content/themes/browserstack/img/bstack-logo-global.svg" alt="BrowserStack Logo">
+<body>
+<div class="header">
+    <h1>Web Automation Report Dashboard</h1>
+    <img src="https://browserstack.wpenginepowered.com/wp-content/themes/browserstack/img/bstack-logo-global.svg" alt="BrowserStack Logo">
+</div>
+
+<div class="summary-table" role="table">
+    <table>
+        <thead>
+        <tr>
+            <th>Project Name</th>
+            <th>Build Name</th>
+            <th>Last Updated</th>
+            <th>Duration</th>
+            <th>User</th>
+            <th>Build Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>End-to-End-Web-Demo</td>
+            <td>End-to-End-Web-Demo</td>
+            <td>April 18, 2024</td>
+            <td>18 Apr 2024 14:11 UTC</td>
+            <td>Sanket Mali</td>
+            <td>Success</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <!-- Test Automation Section -->
+    <div class="section">
+        <div class="section-title">Test Automation</div>
+        <a class="link" href="https://automate.browserstack.com/dashboard/v2/builds/" target="_blank">
+            <i class="icon fas fa-rocket"></i>
+            <div class="link-text">
+                <h3>Automate</h3>
+                <p>BrowserstackDemo-Web-Automation-Regression</p>
+            </div>
+        </a>
+        <a class="link" href="https://percy.io/9560f98d/End-to-End-Web-Demo" target="_blank">
+            <i class="icon fas fa-image"></i>
+            <div class="link-text">
+                <h3>Percy</h3>
+                <p>BrowserstackDemo-WebVisual-Automation-Regression</p>
+            </div>
+        </a>
+        <a class="link" href="https://accessibility.browserstack.com/automated-tests/projects/BrowserstackDemo-Web-Build" target="_blank">
+            <i class="icon fas fa-globe"></i>
+            <div class="link-text">
+                <h3>Accessibility</h3>
+                <p>Accessibility Dashboard</p>
+            </div>
+        </a>
     </div>
-    <div class="summary-table" role="table">
-        <table>
-            <thead>
-            <tr>
-                <th>Project Name</th>
-                <th>Build Name</th>
-                <th>Last Updated</th>
-                <th>Duration</th>
-                <th>User</th>
-                <th>Build Status</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>End-to-End-Web-Demo</td>
-                <td>End-to-End-Web-Demo</td>
-                <td>April 18, 2024</td>
-                <td>18 Apr 2024 14:11 UTC</td>
-                <td>Sanket Mali</td>
-                <td>Success</td>
-            </tr>
-            <!-- Add more rows as needed -->
-            </tbody>
-        </table>
+
+    <!-- Management & Optimization Section -->
+    <div class="section">
+        <div class="section-title">Management & Optimization</div>
+        <a class="link" href="https://test-management.browserstack.com/projects/147930/test-runs" target="_blank">
+            <i class="icon fas fa-tasks"></i>
+            <div class="link-text">
+                <h3>Test Management</h3>
+                <p>Manage Test Runs</p>
+            </div>
+        </a>
+        <a class="link" href="https://observability.browserstack.com/projects/End-to-End-Web-Demo/builds" target="_blank">
+            <i class="icon fas fa-chart-line"></i>
+            <div class="link-text">
+                <h3>Testing Observability</h3>
+                <p>Testing Trends</p>
+            </div>
+        </a>
     </div>
-    <div class="container">
-        <!-- Test Automation Section -->
-        <div class="section">
-            <div class="section-title">Test Automation</div>
-            <a class="link" href="https://automate.browserstack.com/dashboard/v2/builds/" target="_blank">
-                <i class="icon fas fa-rocket"></i>
-                <div class="link-text">
-                    <h3>Automate</h3>
-                    <p>BrowserstackDemo-Web-Automation-Regression</p>
-                </div>
-            </a>
-            <a class="link" href="https://percy.io/9560f98d/End-to-End-Web-Demo" target="_blank">
-                <i class="icon fas fa-image"></i>
-                <div class="link-text">
-                    <h3>Percy</h3>
-                    <p>BrowserstackDemo-WebVisual-Automation-Regression</p>
-                </div>
-            </a>
-            <a class="link" href="https://accessibility.browserstack.com/automated-tests/projects/BrowserstackDemo-Web-Build" target="_blank">
-                <i class="icon fas fa-globe"></i>
-                <div class="link-text">
-                    <h3>Accessibility</h3>
-                    <p>Accessibility Dashboard</p>
-                </div>
-            </a>
-        </div>
-        <!-- Management & Optimization Section -->
-        <div class="section">
-            <div class="section-title">Management & Optimization</div>
-            <a class="link" href="https://test-management.browserstack.com/projects/147930/test-runs" target="_blank">
-                <i class="icon fas fa-tasks"></i>
-                <div class="link-text">
-                    <h3>Test Management</h3>
-                    <p>Manage Test Runs</p>
-                </div>
-            </a>
-            <a class="link" href="https://observability.browserstack.com/projects/End-to-End-Web-Demo/builds" target="_blank">
-                <i class="icon fas fa-chart-line"></i>
-                <div class="link-text">
-                    <h3>Testing Observability</h3>
-                    <p>Testing Trends</p>
-                </div>
-            </a>
-        </div>
-    </div>
+</div>
 </body>
 </html>
