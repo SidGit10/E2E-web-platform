@@ -89,7 +89,7 @@ consoleLogs: errors # <string> Remote browser's console debug levels to be print
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
 
 # test observability for insights and debugging
-testObservability: BROWSERSTACK_TEST_OBSERVABILITY
+testObservability: true
 
 # visual testings
 percy: true
